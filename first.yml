@@ -1,6 +1,7 @@
 ---
 - name: sample
-  hosts: all
+  hosts: localhost
+  connection: local
   tasks:
     - name: my name is sonu
       ansible.builtin.debug:
