@@ -1,6 +1,7 @@
-name:sample
-hosts: all
-tasks:
-    name: Print my name is sonu
+---
+- name: sample
+  hosts: all
+  tasks:
+    - name: my name is sonu
       ansible.builtin.debug:
         msg: "my name is sonu"
